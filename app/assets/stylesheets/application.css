@@ -14,14 +14,19 @@
  *= require_self
  */
 
-h1 {
-  color: red;
+h2 {
+  font-family: cursive;
+  font-weight: 600;
+  color: #40566B;
 }
 
-#head {
-  background-color: #8FA4AC;
+head, body {
+  width: 1250px;
+  margin: 0 auto;
 }
 
 body {
   background-color: #CCEBF5;
+  font-family: "century gothic";
+  line-height: 125%;
 }
