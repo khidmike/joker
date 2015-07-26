@@ -1,3 +1,6 @@
-<h1>Fuck yo couch</h1>
+<h1>Worth a Yuk</h1>
 
-  <center><%= @joke %></center>
+
+<% @joke.each do |joke| %>
+  <center><%= joke.body %></center>
+<% end %>
