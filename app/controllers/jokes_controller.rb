@@ -2,7 +2,9 @@ class JokesController < ApplicationController
 
 
   def index
-    @jokes = Joke.all
+    size = Joke.count
+    selector = 1 + rand(size)
+    @joke = Joke.where("id = ?", selector)
   end
 
   def new
