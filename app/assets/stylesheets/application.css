@@ -14,7 +14,7 @@
  *= require_self
  */
 
-h2 {
+h1 {
   font-family: cursive;
   font-weight: 600;
   color: #40566B;
@@ -25,8 +25,13 @@ head, body {
   margin: 0 auto;
 }
 
+#button {
+  padding-left: 50px;
+}
+
 body {
   background-color: #CCEBF5;
   font-family: "century gothic";
   line-height: 125%;
+  padding-left: 50px;
 }

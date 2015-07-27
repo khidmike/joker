@@ -1,10 +1,12 @@
 <head>
-<h2>Worth a Yuk</h2>
+<h1>Worth a Yuk</h1>
 </head>
 
 <body>
 <br>
 <% @joke.each do |joke| %>
-  <center><%= joke.body %></center>
+  <%= simple_format(joke.body) %>
 <% end %>
+<br>
+<div id="button"><%= button_to "Hit me again!", root_path, method: "get" %></div>
 </body>
