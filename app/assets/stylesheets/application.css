@@ -21,17 +21,34 @@ h1 {
 }
 
 head, body {
-  width: 1250px;
+  position: absolute;
+  width: 1200px;
   margin: 0 auto;
 }
 
-#button {
-  padding-left: 50px;
+
+#refresh {
+  align-self: auto;
+}
+
+.btn {
+  padding: 20px 15px 20px 15px;
+  color: white;
+  font-size: 20px;
+  border-radius: 45px;
+  background: #3498db;
+  font-family: "century gothic";
+}
+
+.btn:hover {
+  background: #fff419;
+  color: #3498db;
 }
 
 body {
   background-color: #CCEBF5;
   font-family: "century gothic";
-  line-height: 125%;
+  text-align: justify;
+  line-height: 140%;
   padding-left: 50px;
 }

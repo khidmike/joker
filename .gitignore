@@ -12,8 +12,6 @@
 !/log/.keep
 /tmp
 
-# Ignore csv
-.csv
 
 # Ignore seeds
 db/seeds.rb
